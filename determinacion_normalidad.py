@@ -4,7 +4,7 @@ import numpy as np
 from scipy.stats import anderson
 
 # indice de song_hottness
-MY_VARIABLE_INDEX = 4
+MY_VARIABLE_INDEX = 2
 
 # load array
 data = loadtxt('data.csv', delimiter=',')
