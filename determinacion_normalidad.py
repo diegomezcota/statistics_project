@@ -4,11 +4,11 @@ import numpy as np
 from scipy.stats import anderson
 
 # indice de song_hottness
-MY_VARIABLE_INDEX = 2
+MY_VARIABLE_INDEX = 4
 
 # load array
 data = loadtxt('data.csv', delimiter=',')
 my_variable_data = data[MY_VARIABLE_INDEX]
 
 # ver como analizarlo en https://www.statology.org/anderson-darling-test-python/
-print(anderson(data))
+print(anderson(my_variable_data))
