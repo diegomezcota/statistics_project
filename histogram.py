@@ -2,7 +2,7 @@ from numpy import loadtxt
 import matplotlib.pyplot as plt
 
 # indice de tempo
-MY_VARIABLE_INDEX = 4
+MY_VARIABLE_INDEX = 0
 
 # load array
 data = loadtxt('data.csv', delimiter=',')

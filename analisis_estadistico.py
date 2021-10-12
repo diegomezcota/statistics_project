@@ -5,7 +5,7 @@ from scipy.stats import skew
 import numpy as np
 
 # indice de song_hottness
-MY_VARIABLE_INDEX = 2
+MY_VARIABLE_INDEX = 1
 
 # load array
 data = loadtxt('data.csv', delimiter=',')
